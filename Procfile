@@ -1,1 +1,1 @@
-web: gunicorn TextAPI.wsgi
+web: gunicorn TextAPI.wsgi --log-file -

@@ -1,4 +1,5 @@
 *.pyc
-venv
+myvenv
 db.sqlite3
+songdir
 __pycache__ 

@@ -59,6 +59,11 @@ MIDDLEWARE_CLASSES = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
+
+MEDIA_ROOT=os.path.join(BASE_DIR,"songdir")
+MEDIA_URL='/media/'
+
+
 ROOT_URLCONF = 'TextAPI.urls'
 
 TEMPLATES = [
